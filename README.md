@@ -29,6 +29,8 @@ npm -v
 npm install
 ```
 
+说明：DCloud npm 包的 `latest` tag 当前会解析到 Vue2 线。本项目使用 Vue3/Vite，因此 `package.json` 已锁定 DCloud `vue3` tag 对应版本，不要随意改回 `latest`。
+
 创建本地环境变量：
 
 ```bash
