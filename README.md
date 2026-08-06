@@ -57,6 +57,26 @@ http://127.0.0.1:8000/health
 npm run dev:h5
 ```
 
+## 服务器 H5 部署
+
+服务器部署由后端仓库的生产 Compose 统一编排：
+
+```text
+star_comm_api/deploy/production/docker-compose.yml
+```
+
+生产构建时前端使用同源接口：
+
+```text
+VITE_API_BASE_URL=/api/v1
+```
+
+因此手机访问 `http://82.156.43.206` 时，前端请求会走：
+
+```text
+http://82.156.43.206/api/v1
+```
+
 ## HBuilderX
 
 可以用 HBuilderX 打开本仓库进行 uni-app 开发、真机运行和云打包。
