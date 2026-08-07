@@ -2,6 +2,7 @@
   "name": "星邻社",
   "appid": "__UNI__STARCOMM",
   "description": "星邻社 App",
+  "vueVersion": "3",
   "versionName": "0.1.0",
   "versionCode": "1",
   "transformPx": false,

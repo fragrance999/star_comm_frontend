@@ -14,8 +14,8 @@ export class ApiError extends Error {
 }
 
 interface RequestOptions {
-  method?: 'GET' | 'POST' | 'PATCH' | 'DELETE'
-  data?: unknown
+  method?: UniApp.RequestOptions['method']
+  data?: UniApp.RequestOptions['data']
   auth?: boolean
 }
 
