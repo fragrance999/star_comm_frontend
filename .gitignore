@@ -18,6 +18,9 @@ Thumbs.db
 .env.local
 .env.production
 
+# 本地部署文件
+Dockerfile
+
 # 编辑器与IDE配置
 .idea/
 .vscode/
