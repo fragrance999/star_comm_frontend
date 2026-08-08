@@ -14,7 +14,7 @@ export class ApiError extends Error {
 }
 
 interface RequestOptions {
-  method?: UniApp.RequestOptions['method']
+  method?: UniApp.RequestOptions['method'] | 'PATCH'
   data?: UniApp.RequestOptions['data']
   auth?: boolean
 }
@@ -33,7 +33,7 @@ export function request<T>(path: string, options: RequestOptions = {}): Promise<
   return new Promise((resolve, reject) => {
     uni.request({
       url: `${API_BASE_URL}${path}`,
-      method: options.method || 'GET',
+      method: (options.method || 'GET') as UniApp.RequestOptions['method'],
       data: options.data,
       header: headers,
       success: (response) => {

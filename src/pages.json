@@ -31,6 +31,28 @@
       }
     },
     {
+      "path": "pages/spirit/create/index",
+      "style": {
+        "navigationBarTitleText": "让星灵诞生",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#07070e"
+      }
+    },
+    {
+      "path": "pages/spirit/onboarding/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#07070e"
+      }
+    },
+    {
+      "path": "pages/spirit/chat/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#07070e"
+      }
+    },
+    {
       "path": "pages/me/index",
       "style": {
         "navigationBarTitleText": "我的星图",
