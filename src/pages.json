@@ -1,34 +1,48 @@
 {
   "pages": [
     {
+      "path": "pages/launch/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#07070e"
+      }
+    },
+    {
       "path": "pages/login/index",
       "style": {
-        "navigationBarTitleText": "登录"
+        "navigationStyle": "custom",
+        "backgroundColor": "#07070e"
       }
     },
     {
       "path": "pages/register/index",
       "style": {
-        "navigationBarTitleText": "注册"
+        "navigationBarTitleText": "注册",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#07070e"
       }
     },
     {
       "path": "pages/home/index",
       "style": {
-        "navigationBarTitleText": "首页"
+        "navigationBarTitleText": "星邻社",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#07070e"
       }
     },
     {
       "path": "pages/me/index",
       "style": {
-        "navigationBarTitleText": "我的"
+        "navigationBarTitleText": "我的星图",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#07070e"
       }
     }
   ],
   "globalStyle": {
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "星邻社",
-    "navigationBarBackgroundColor": "#f6f4ef",
-    "backgroundColor": "#f6f4ef"
+    "navigationBarBackgroundColor": "#07070e",
+    "backgroundColor": "#07070e"
   }
 }
